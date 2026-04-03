@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+
+    #ifdef __STDC_VERSION__
+        printf("Version de C: %ld\n", __STDC_VERSION__);
+    #endif
+
+    return 0;
+}
